@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+//this animates the main menu
 - (void)viewDidLoad
 {
     AnimatedBackground.animationImages = [NSArray arrayWithObjects:

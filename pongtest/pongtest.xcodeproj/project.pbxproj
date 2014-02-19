@@ -29,6 +29,7 @@
 		253B25A318B294DA0042DA08 /* GameBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 253B259B18B294DA0042DA08 /* GameBackGround.png */; };
 		253B25A418B294DA0042DA08 /* Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253B259C18B294DA0042DA08 /* Ball.jpg */; };
 		253B25A518B294DA0042DA08 /* Player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253B259D18B294DA0042DA08 /* Player.jpg */; };
+		258E83E718B44099002F1D5C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E83E618B44099002F1D5C /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		253B259B18B294DA0042DA08 /* GameBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackGround.png; sourceTree = "<group>"; };
 		253B259C18B294DA0042DA08 /* Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ball.jpg; sourceTree = "<group>"; };
 		253B259D18B294DA0042DA08 /* Player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player.jpg; sourceTree = "<group>"; };
+		258E83E518B44099002F1D5C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		258E83E618B44099002F1D5C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				253B256318B292DA0042DA08 /* Main.storyboard */,
 				253B256618B292DA0042DA08 /* ViewController.h */,
 				253B256718B292DA0042DA08 /* ViewController.m */,
+				258E83E518B44099002F1D5C /* Game.h */,
+				258E83E618B44099002F1D5C /* Game.m */,
 				253B256918B292DA0042DA08 /* Images.xcassets */,
 				253B255818B292DA0042DA08 /* Supporting Files */,
 			);
@@ -284,6 +289,7 @@
 				253B256818B292DA0042DA08 /* ViewController.m in Sources */,
 				253B256218B292DA0042DA08 /* AppDelegate.m in Sources */,
 				253B255E18B292DA0042DA08 /* main.m in Sources */,
+				258E83E718B44099002F1D5C /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +498,7 @@
 				253B258218B292DA0042DA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		253B258318B292DA0042DA08 /* Build configuration list for PBXNativeTarget "pongtestTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				253B258518B292DA0042DA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
