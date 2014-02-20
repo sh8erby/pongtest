@@ -12,17 +12,32 @@
 int x;
 int y;
 
+int ComputerScoreNumber;
+int PlayerScoreNumber;
+
+
 @interface Game : UIViewController
 {
     IBOutlet UIImageView *Ball;
     IBOutlet UIButton *StartButton;
+    
+    //added player and computer once the image was added
+    IBOutlet UIImageView *Player;
+    IBOutlet UIImageView *Computer;
+    
+    IBOutlet UILabel *PlayerScore;
+    IBOutlet UILabel    *ComputerScore;
+    IBOutlet UILabel *WinorLose;
+    IBOutlet UILabel   *Exit;
     
     NSTimer * timer;
 }
 
 -(IBAction)StartButton:(id)sender;
 -(void)BallMovement;
-
-
+//part 2 added computer movement into game.m
+-(void)ComputerMovement;
+//part 3 collision detection
+-(void)Collission;
 
 @end
